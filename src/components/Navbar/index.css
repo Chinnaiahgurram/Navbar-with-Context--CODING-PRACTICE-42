@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.header-container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  border: 2px solid #dcdcdc;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  font-family: 'Roboto';
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dark-bg {
+  background-color: #333333;
+  color: white;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.list-items {
+  display: flex;
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  margin-left: 20px;
+  color: red;
+  font-size: 18px;
+  font-weight: 500;
+}
+.light-cls {
+  color: white;
+}
+.theme-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  /*border: 1px solid yellow;*/
+  padding-top: 10px;
+}
+.theme-img {
+  height: 50px;
+  width: 50px;
+}

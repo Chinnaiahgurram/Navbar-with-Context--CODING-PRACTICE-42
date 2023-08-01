@@ -1,0 +1,23 @@
+.about-container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.about-logo {
+  height: 200px;
+  width: 200px;
+}
+.about-dark-bg {
+  background-color: black;
+}
+.light-cls {
+  background-color: white;
+}
+.home-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
